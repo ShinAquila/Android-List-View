@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E4E4E4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp">
+        </TextView>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/DataList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:listSelector="#A8A8A8"
+        android:scrollbars="none">
+
+    </ListView>
+
+
+
+
+</LinearLayout>
